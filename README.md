@@ -2,8 +2,8 @@
 
 # vgdisplay
 
-# lvextend /dev/mapper/centos-root -L +200G
+# lvextend /dev/mapper/vg-root -L +200G
 
-# resize2fs /dev/mapper/centos-root
+# resize2fs /dev/mapper/vg-root
 
 # df -h
