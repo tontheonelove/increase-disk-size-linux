@@ -1,9 +1,9 @@
 # increase-disk-size-vg-root
 
-# vgdisplay
+#vgdisplay
 
-# lvextend /dev/mapper/vg-root -L +200G
+#lvextend /dev/mapper/vg-root -L +200G
 
-# resize2fs /dev/mapper/vg-root
+#resize2fs /dev/mapper/vg-root
 
-# df -h
+#df -h
