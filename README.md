@@ -16,7 +16,9 @@
 # for centos 7 
 
 #vgdisplay
+
 #lvextend /dev/centos/root -L +200G
 
 #xfs_growfs /dev/centos/root
+
 #df -h
