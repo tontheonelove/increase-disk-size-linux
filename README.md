@@ -1,5 +1,7 @@
 # increase-disk-size-linux
 
+# for centos 6.x
+
 #vgdisplay
 
 #lvextend /dev/mapper/vg-root -L +200G
