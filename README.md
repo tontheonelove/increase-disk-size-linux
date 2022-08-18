@@ -1,4 +1,4 @@
-# increase-disk-size-vg-root
+# increase-disk-size-linux
 
 #vgdisplay
 
