@@ -1,5 +1,14 @@
 # increase-disk-size-linux
 
+# for Ubuntu 20
+#vgdisplay
+
+#lvextend /dev/mapper/ubuntu-vg -L +200G
+
+#resize2fs /dev/mapper/ubuntu-vg
+
+#df -h
+
 # for centos 6.x
 
 #vgdisplay
